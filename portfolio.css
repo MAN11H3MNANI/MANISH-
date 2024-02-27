@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&family=Rubik+Glitch+Pop&display=swap');
+*{
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+        
+html{
+    overflow-x: hidden;
+}
+/* navbar */
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+        background-color: #fbe4d8;
+        color: #190019;
+        overflow-x: hidden;
+
+
+ button{
+    height: 50px;
+    border: 2px solid blueviolet;
+ }
+
+ button:hover{
+    height: 60px;
+    /* width: 60px; */
+ }
+
+}
+
+@media(max-width:769px){
+    #navbar{
+        display: block;
+      padding: 15px;}
+
+      ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+        
+    }
+}
+
+
+
+
+/* HERO */
+#hero{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    background-color: #f5cac6;
+    overflow-x: hidden;
+
+}
+
+#hero1{
+    font-size: 96px;
+        padding-top: 150px;
+        
+} 
+
+#hero2{
+    padding-top: 150px;
+    height: 600px;
+    width: 500px;
+}
+
+#hero2:hover{
+    height: 700px;
+    width: 600px;
+}
+
+@media(max-width:769px){
+    #hero{
+        display: grid;
+        grid-template-columns: auto;}
+
+        #hero1{
+            text-align: center;
+}
+}
+
+
+
+
+
+/* about me */
+
+#aboutus{
+    background-color:  #dda1c0;
+    color: #162b49;
+    overflow-x: hidden;
+}
+
+#about{
+font-size: 72px;
+padding-top: 50px;
+}
+
+#img{
+    height: 650px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+#img:hover{
+    height: 700px;
+    width: 650px;
+}
+
+#aboutme{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#information{
+    padding-top: 100px;   
+}
+
+@media(max-width:769px){
+    #aboutme{
+        display: block;
+        padding-top: 10px;
+    }
+    
+}
+
+/* EDUCATION */
+#education{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-color: #c97cb8;
+    color: #190101;
+        overflow-x: hidden;
+      
+}
+
+@media(max-width:769px){
+    #education{
+        display: block;
+            overflow-x: hidden;}
+}
+
+#educationone{
+    font-size: 72px;
+    padding: 300px;
+    border-right: 5px solid black;
+}
+
+#educationtwo{
+    padding: 50px;
+}
+ 
+/* SKILLS */
+#skill{
+       padding-top: 50px;
+        background-color: #760d8b;
+        color: rgb(184, 224, 231);
+        overflow-x: hidden;
+        
+      
+}
+
+
+#skillone{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 32px;
+    padding: 50px;
+}
+
+#skills{
+padding-bottom: 100px;
+}
+
+#skilltwo{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+}
+
+#skilltwo div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* CERTICATES */
+#certificates{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 44px;
+    background-color: #750475;;
+    color: #e9a8f1;
+        overflow-x: hidden;
+        padding-bottom: 50px;
+}
+
+
+#certificatesone{
+    font-size: 64px;
+    padding: 150px;
+}
+
+#certificatestwo{
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+@media(max-width:769px){
+    #certificates{
+        display: block
+    }
+    #certificatestwo{
+        padding-left: 100px;
+        padding-top: 20px;
+    
+    }
+}
+
+
+/* CONTACT */
+#contactme{
+      background-color: #860e58;
+     color: #fbe4d8;
+     padding: 50px;
+     overflow-x: hidden;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#contactone{
+    font-size: 48px;
+    margin: 50px;
+}
+
+#contacttwo{
+    font-size: 32px;
+    margin: 50px;
+}
+
+#contactthree{
+    font-size: 96px;
+}
+
+
+
+/* owesome */
+
+#owesome{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 56px;
+    position: absolute;
+    top: 850px;
+    left: 1000px;
+}
+
+#owesome div i{
+    padding: 50px;
+}
+
+#owesome2 div{
+    font-size: 36px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: rgb(16, 15, 15);
+    padding-left: 50px;
+}
+
+
+@media(max-width:769px){
+    #owesome{
+        display: flex;
+        justify-content: space-between; 
+        font-size: 56px;
+        position: absolute;
+        top: 1550px;
+        left: 100px;
+    }
+
+    #owesome2 div{
+        font-size: 24px;
+        position: absolute;
+        top: 10px;
+        left: 650px;
+        color: rgb(16, 15, 15);
+        padding-left: 50px;
+    }
+}
